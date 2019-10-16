@@ -4,6 +4,7 @@
 
 - PwnThyBytes 2019 Baby sql is not baby anymore（题目名太长了）
 - I had problems in the past with SQLi so I searched for recommendations. I know for sure that PHP addslashes is a pain and nobody can bypass this.
+- Difficulty: Medium.
 
 ## 考点
 
