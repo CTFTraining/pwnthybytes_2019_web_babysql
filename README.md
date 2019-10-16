@@ -17,7 +17,7 @@
 
 ## Writeups
 
-> 
+> https://tiaonmmn.github.io/2019/10/08/PwnThyBytes-2019-Baby-sql-is-not-baby-anymore/
 
 ## 题目说明
 - Flag位于files/flag中，Docker中位于/flag。本题flag位于数据库，在index.php中有一段读/flag并写入数据库的代码。
