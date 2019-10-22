@@ -1,9 +1,6 @@
 FROM ctftraining/base_image_nginx_mysql_php_73
 COPY files/ /var/www/html/
-ENV "DB_HOST=localhost"
-ENV "DB_USER=root"
-ENV "DB_PASSWORD=root"
-ENV "DB_NAME=ptbctf"
+ENV DB_HOST=localhost DB_USER=root DB_PASSWORD=root DB_NAME=ptbctf
 RUN sh -c "mysqld_safe &" &&\
     mv /var/www/html/src/* /var/www/html/ &&\
     mv /var/www/html/flag.sh / &&\
